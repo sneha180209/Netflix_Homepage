@@ -18,11 +18,11 @@ function plusone() {
       bsix.style.top = "835px";
     } else {
 
-      btwo.style.top = "247px";
-      bthree.style.top = "344px";
-      bfour.style.top = "442px";
-      bfive.style.top = "540px";
-      bsix.style.top = "638px";
+      btwo.style.top = "248px";
+      bthree.style.top = "345px";
+      bfour.style.top = "443px";
+      bfive.style.top = "541px";
+      bsix.style.top = "639px";
       x.style.height = "0px";
       setTimeout(function() {
         x.style.display = "none"; // Hide the panel after collapsing
@@ -47,10 +47,10 @@ function plustwo() {
       bfive.style.top = "646px";
       bsix.style.top = "742px";
     } else {
-      bthree.style.top = "344px";
-      bfour.style.top = "442px";
-      bfive.style.top = "540px";
-      bsix.style.top = "638px";
+      bthree.style.top = "341px";
+      bfour.style.top = "435px";
+      bfive.style.top = "531.5px";
+      bsix.style.top = "627px";
       y.style.height = "0px";
       setTimeout(function() {
         y.style.display = "none"; // Hide the panel after collapsing
@@ -68,18 +68,15 @@ function plusthree() {
     var bsix = document.querySelector(".btn6");
     if (z.style.display === "none" || z.style.display === "") {
       z.style.display = "block";
-      z.style.height = "217px";
-      bfour.style.top = "679px";
-      bfive.style.top = "776px";
-      bsix.style.top = "873px";
-      // bfour.style.top = "587px";
-      // bfive.style.top = "684px";
-      // bsix.style.top = "781px";
+      z.style.height = "212px";
+      bfour.style.top = "669px";
+      bfive.style.top = "765px";
+      bsix.style.top = "860px";
     }
     else {
-      bfour.style.top = "442px";
-      bfive.style.top = "540px";
-      bsix.style.top = "638px";
+      bfour.style.top = "435.5px";
+      bfive.style.top = "531px";
+      bsix.style.top = "627px";
       z.style.height = "0px";
       setTimeout(function() {
         z.style.display = "none"; // Hide the panel after collapsing
@@ -98,13 +95,13 @@ function plusfour() {
     if (a.style.display === "none" || a.style.display === "") {
       a.style.display = "block";
       a.style.height = "90px";
-      bfive.style.top = "649px";
-      bsix.style.top = "745px";
+      bfive.style.top = "641px";
+      bsix.style.top = "735px";
     }
     else {
       
-      bfive.style.top = "534px";
-      bsix.style.top = "632px";
+      bfive.style.top = "531px";
+      bsix.style.top = "627px";
       a.style.height = "0px";
       setTimeout(function() {
         a.style.display = "none"; // Hide the panel after collapsing
@@ -123,16 +120,15 @@ function plusfive() {
     if (b.style.display === "none" || b.style.display === "") {
       b.style.display = "block";
       b.style.height = "90px";
-      bsix.style.top = "740px";
+      bsix.style.top = "737px";
     }
     else {
-      bsix.style.top = "629px";
+      bsix.style.top = "627px";
       b.style.height = "0px";
       setTimeout(function() {
         b.style.display = "none"; // Hide the panel after collapsing
       }, 130); 
     }
-    togglePanel("panel5");
   }
 
 function plussix() {
@@ -147,7 +143,6 @@ function plussix() {
         c.style.display = "none"; // Hide the panel after collapsing
       }, 130); 
     }
-    togglePanel("panel6");
   }
 
   
