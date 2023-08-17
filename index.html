@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="netflixheader">
+        <button id="SignIn">Sign In</button>
+        <img src="logo.png" alt="Netflix Logo">
+        <div class="dropdown">
+            <button class="dropbtn"><span1 class="material-icons">arrow_drop_down</span1>
+                <span3 class="material-icons">language</span3>English</button>
+            <div class="dropdown-content">
+              <a href="#">English</a>
+              <a href="#">Hindi</a>
+            </div>
+          </div> 
+    </div>
+    <div class="netflixmiddle">
+        <h1>Unlimited movies, TV shows, and more.</h1>
+        <p>Watch anywhere. Cancel anytime</p>
+        <p2>Ready to watch? Enter your email to create or restart your membership.</p2>
+        <button id="GetStarted"><span2 class="material-icons">chevron_right</span2>Get Started
+        </button>
+        <input id="email" type="text" placeholder="Email address"></input>
+        <hr>
+    </div>
+   
+    <div class="netflixmiddle2">
+        <h2>Enjoy on your TV</h2>
+        <p>Watch on Smart TVs, Playstation, Xbox, Chromecast,</p>
+        <p2> Apple TV, Blu-ray players, and more.</p2>
+        <img src="tv.png" alt="TV">
+        <video id="scrollVideo" width="320" height="240" controls autoplay loop muted>
+            <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4">
+        </video>
+        <hr>
+    </div>
+    
+    <div class="netflixmiddle3">
+        <h2>Download your shows to watch offline</h2>
+        <p>Save your favourites easily and always have something to watch.</p>
+        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="TV">
+        <div class="card">
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png" alt="Avatar">
+            <h4><b>Stranger Things</b></h4>
+            <p>Downloading...</p>
+        </div>    
+        <div class="gif">
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif" alt="gif">
+        </div>
+        <hr>
+    </div>
+    
+    <div class="netflixmiddle4">
+        <h2>Watch everywhere</h2>
+        <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png" alt="TV2">
+        <video id="scrollvideo2" width="320" height="240" controls autoplay loop muted>
+            <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v" type="video/mp4">
+        </video>
+        <hr>
+    </div>
+
+    <div class="netflixmiddle5">
+        <h2>Create profiles for kids.</h2>
+        <p>Send kids on adventures with their favourite characters in a space made just for them—free with your membership.</p>
+        <img src="https://occ-0-2484-3662.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d" alt="children">
+        <hr>
+    </div>
+
+    <div class="netflixmiddle6">
+        <h2>Frequently Asked Questions</h2>
+            <button class="btn1" onclick=plusone()><span class="material-icons">add</span>What is Netflix?</button>
+            <div id="panel1" class="panel">
+              Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more on - thousands of internet-connected devices.
+              <br><br>
+              You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+            </div>
+          
+            <button class="btn2" onclick=plustwo()><span class="material-icons">add</span>How much does Netflix cost?</button>
+            <div id="panel2" class="panel">
+              Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 199 to ₹ 799 a month. No extra costs, no contracts.
+            </div>
+          
+            <button class="btn3" onclick=plusthree()><span class="material-icons">add</span>Where can I watch?</button>
+            <div id="panel3" class="panel">
+              Watch anywhere, anytime, on an unlimited number of devices. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+                <br><br>
+                You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+            </div>
+          
+            <button class="btn4" onclick=plusfour()><span class="material-icons">add</span>How do I cancel?</button>
+            <div id="panel4" class="panel">
+              Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+            </div>
+          
+            <button class="btn5" onclick=plusfive()><span class="material-icons">add</span>What can I watch on Netflix?</button>
+            <div id="panel5" class="panel">
+              Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+            </div>
+          
+            <button class="btn6" onclick=plussix()><span class="material-icons">add</span>Is Netflix good for kids?</button>
+            <div id="panel6" class="panel">
+              The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.
+                <br><br>
+                Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.
+            </div> 
+    </div> 
+
+</body>
+</html>
