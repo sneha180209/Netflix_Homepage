@@ -629,22 +629,8 @@ video::-webkit-media-controls
   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
   font-weight: 400;
   cursor: pointer;
-  /* transition-duration: 250ms;
-  transition-property: background-color;
-  transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1); */
 
 }
-
-/* @keyframes p1 {
-  from{
-    top: 237px;
-  }
-  to {
-    top: 234px;
-  } 
-}
- */
-
 
 .netflixmiddle6 #panel1{
   display: none;
@@ -657,17 +643,12 @@ video::-webkit-media-controls
   padding-top: 20px;
   background-color: rgb(45, 45, 45);
   border: none;
-  /* border-radius: 5px; */
   text-align: left;
   color: white;
   font-size: 1.5rem;
   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
   font-weight: 400;
-  /* animation: p1 0.4s;
-  animation-fill-mode: forwards; */
-  /* animation-delay: 1s; */
-  transition: top 3s ease;
-  /* transition: all 0.25s cubic-bezier(0.5, 0, 0.1, 1) 0s; */
+
 
 }
 
@@ -680,7 +661,6 @@ video::-webkit-media-controls
   padding-left: 28px;
   background-color: rgb(45,45,45);
   border: none;
-  /* border-radius: 5px; */
   text-align: left;
   color: white;
   font-size: 1.8rem;
@@ -732,7 +712,7 @@ video::-webkit-media-controls
   top: 430px;
   left: 130px;
   width: 1172px;
-  height: 125px;
+  height: 225px;
   padding-left: 28px;
   padding-top: 20px;
   background-color: rgb(45, 45, 45);
@@ -888,4 +868,11 @@ video::-webkit-media-controls
 }
 
 
-
+#panel1, #panel2, #panel3, #panel4, #panel5, #panel6 {
+  display: none;
+  transition: height 0.5s ease;
+}
+.btn1,.btn2,.btn3,.btn4,.btn5,.btn6 {
+  position: absolute;
+  transition: top 0.3s ease;
+}
