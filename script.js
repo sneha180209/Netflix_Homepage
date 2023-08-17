@@ -15,9 +15,11 @@ function plusone() {
       bfour.style.top = "645px";
       bfive.style.top = "740px";
       bsix.style.top = "835px";
+      x.style.transition = "display 0s, opacity 1s, top 3s ease";
+      x.style.opacity = "1";
     } else {
       x.style.display = "none";
-      bone.style.top = "148px";
+      // bone.style.top = "1648px";
       btwo.style.top = "247px";
       bthree.style.top = "344px";
       bfour.style.top = "442px";
