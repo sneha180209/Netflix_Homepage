@@ -149,7 +149,7 @@
     font-weight: 600;
     cursor: pointer;
     top: 370px;
-    left: 880px;
+    left: 845px;
     position: absolute;
 }
 
@@ -172,7 +172,7 @@
     border-color: #6d6d6d;
     position: absolute;
     top: 360px;
-    left: 500px;
+    left: 475px;
     width: 350px;
     height: 59px;
     border-radius: 4px;
@@ -208,7 +208,7 @@ img{
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
     font-weight: 700;
     top: 140px;
-    left: 300px;
+    left: 260px;
     width: 1000px;
     margin-bottom: 20px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -221,7 +221,7 @@ img{
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
     width: 600px;
     top: 220px;
-    left: 480px;
+    left: 460px;
     margin-bottom: 20px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     position: absolute;
@@ -232,7 +232,7 @@ img{
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
     width: 1600px;
     top: 320px;
-    left: 0px;
+    left: -30px;
     margin-bottom: 20px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     position: absolute;
