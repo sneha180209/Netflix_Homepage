@@ -25,9 +25,9 @@ function plusone() {
       l6.style.height="172%";
 
       l5.style.top="4150px";
-      l5.style.height="60%";
+      l5.style.height="70%";
 
-      l1.style.top="960px";
+      l1.style.top="980px";
       l2.style.top="1050px";
       l3.style.top="1060px";
     } 
@@ -42,7 +42,7 @@ function plusone() {
       l6.style.height="138%";
 
       l5.style.top="3922px";
-      l5.style.height="55%";
+      l5.style.height="65%";
 
       l1.style.top="745px";
       l2.style.top="800px";
@@ -69,9 +69,9 @@ function plustwo() {
       l6.style.height="160%";
 
       l5.style.top="4050px";
-      l5.style.height="60%";
+      l5.style.height="65%";
 
-      l1.style.top="860px";
+      l1.style.top="880px";
       l2.style.top="950px";
       l3.style.top="960px";
 
@@ -85,7 +85,7 @@ function plustwo() {
       l6.style.height="138%";
 
       l5.style.top="3922px";
-      l5.style.height="55%";
+      l5.style.height="65%";
 
       l1.style.top="745px";
       l2.style.top="800px";
@@ -109,9 +109,9 @@ function plusthree() {
       l6.style.height="172%";
 
       l5.style.top="4150px";
-      l5.style.height="60%";
+      l5.style.height="70%";
 
-      l1.style.top="960px";
+      l1.style.top="980px";
       l2.style.top="1050px";
       l3.style.top="1060px";
     }
@@ -124,7 +124,7 @@ function plusthree() {
       l6.style.height="138%";
 
       l5.style.top="3922px";
-      l5.style.height="55%";
+      l5.style.height="65%";
 
       l1.style.top="745px";
       l2.style.top="800px";
@@ -147,9 +147,9 @@ function plusfour() {
       l6.style.height="160%";
 
       l5.style.top="4050px";
-      l5.style.height="60%";
+      l5.style.height="65%";
 
-      l1.style.top="860px";
+      l1.style.top="880px";
       l2.style.top="950px";
       l3.style.top="960px";
     }
@@ -162,7 +162,7 @@ function plusfour() {
       l6.style.height="138%";
 
       l5.style.top="3922px";
-      l5.style.height="55%";
+      l5.style.height="65%";
 
       l1.style.top="745px";
       l2.style.top="800px";
@@ -184,9 +184,9 @@ function plusfive() {
       l6.style.height="160%";
 
       l5.style.top="4050px";
-      l5.style.height="60%";
+      l5.style.height="65%";
 
-      l1.style.top="860px";
+      l1.style.top="880px";
       l2.style.top="950px";
       l3.style.top="960px";
     }
@@ -197,7 +197,7 @@ function plusfive() {
       l6.style.height="138%";
 
       l5.style.top="3922px";
-      l5.style.height="55%";
+      l5.style.height="65%";
 
       l1.style.top="745px";
       l2.style.top="800px";
@@ -217,9 +217,9 @@ function plussix() {
       l6.style.height="172%";
 
       l5.style.top="4150px";
-      l5.style.height="60%";
+      l5.style.height="65%";
 
-      l1.style.top="960px";
+      l1.style.top="980px";
       l2.style.top="1050px";
       l3.style.top="1060px";
     }
@@ -229,7 +229,7 @@ function plussix() {
       l6.style.height="138%";
 
       l5.style.top="3922px";
-      l5.style.height="55%";
+      l5.style.height="65%";
 
       l1.style.top="745px";
       l2.style.top="800px";
