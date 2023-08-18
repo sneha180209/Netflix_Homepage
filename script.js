@@ -1,3 +1,4 @@
+var bone = document.querySelector(".btn1");
 var btwo = document.querySelector(".btn2");
 var bthree = document.querySelector(".btn3");
 var bfour = document.querySelector(".btn4");
@@ -30,6 +31,8 @@ function plusone() {
       l1.style.top="980px";
       l2.style.top="1050px";
       l3.style.top="1060px";
+
+      bone.innerHTML = '<span class="material-icons">close</span>What is Netflix?';
     } 
     else {
       btwo.style.top = "248px";
@@ -47,7 +50,8 @@ function plusone() {
       l1.style.top="745px";
       l2.style.top="800px";
       l3.style.top="810px";
-
+      
+      bone.innerHTML = '<span class="material-icons">add</span>What is Netflix?';
       setTimeout(function() {
         x.style.display = "none"; // Hide the panel after collapsing
       }, 130); 
@@ -75,6 +79,8 @@ function plustwo() {
       l2.style.top="950px";
       l3.style.top="960px";
 
+      btwo.innerHTML = '<span class="material-icons">close</span>How much does Netflix cost?';
+
     } else {
       bthree.style.top = "341px";
       bfour.style.top = "435px";
@@ -90,6 +96,8 @@ function plustwo() {
       l1.style.top="745px";
       l2.style.top="800px";
       l3.style.top="810px";
+
+      btwo.innerHTML = '<span class="material-icons">add</span>How much does Netflix cost?';
       setTimeout(function() {
         y.style.display = "none"; // Hide the panel after collapsing
       }, 130); 
@@ -114,6 +122,8 @@ function plusthree() {
       l1.style.top="980px";
       l2.style.top="1050px";
       l3.style.top="1060px";
+
+      bthree.innerHTML = '<span class="material-icons">close</span>Where can I watch?';
     }
     else {
       bfour.style.top = "435.5px";
@@ -129,6 +139,8 @@ function plusthree() {
       l1.style.top="745px";
       l2.style.top="800px";
       l3.style.top="810px";
+
+      bthree.innerHTML = '<span class="material-icons">add</span>Where can I watch?';
       setTimeout(function() {
         z.style.display = "none"; // Hide the panel after collapsing
       }, 130); 
@@ -152,6 +164,8 @@ function plusfour() {
       l1.style.top="880px";
       l2.style.top="950px";
       l3.style.top="960px";
+
+      bfour.innerHTML = '<span class="material-icons">close</span>How do I cancel?';
     }
     else {
       
@@ -167,6 +181,8 @@ function plusfour() {
       l1.style.top="745px";
       l2.style.top="800px";
       l3.style.top="810px";
+
+      bfour.innerHTML = '<span class="material-icons">add</span>How do I cancel?';
       setTimeout(function() {
         a.style.display = "none"; // Hide the panel after collapsing
       }, 130); 
@@ -189,6 +205,8 @@ function plusfive() {
       l1.style.top="880px";
       l2.style.top="950px";
       l3.style.top="960px";
+
+      bfive.innerHTML = '<span class="material-icons">close</span>What can I watch on Netflix?';
     }
     else {
       bsix.style.top = "627px";
@@ -202,6 +220,8 @@ function plusfive() {
       l1.style.top="745px";
       l2.style.top="800px";
       l3.style.top="810px";
+
+      bfive.innerHTML = '<span class="material-icons">add</span>What can I watch on Netflix?';
       setTimeout(function() {
         b.style.display = "none"; // Hide the panel after collapsing
       }, 130); 
@@ -222,6 +242,8 @@ function plussix() {
       l1.style.top="980px";
       l2.style.top="1050px";
       l3.style.top="1060px";
+
+      bsix.innerHTML = '<span class="material-icons">close</span>Is Netflix good for kids?';
     }
     else {
       c.style.height = "0px";
@@ -234,6 +256,8 @@ function plussix() {
       l1.style.top="745px";
       l2.style.top="800px";
       l3.style.top="810px";
+
+      bsix.innerHTML = '<span class="material-icons">add</span>Is Netflix good for kids?';
       setTimeout(function() {
         c.style.display = "none"; // Hide the panel after collapsing
       }, 130); 

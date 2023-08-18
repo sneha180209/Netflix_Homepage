@@ -865,11 +865,9 @@ video::-webkit-media-controls
 
 
 #panel1, #panel2, #panel3, #panel4, #panel5, #panel6 {
-  /* display: none; */
   transition: height 0.5s ease;
 }
 .btn1,.btn2,.btn3,.btn4,.btn5, .btn6 {
-  /* position: absolute; */
   transition: top 0.3s ease;
 }
 
