@@ -12,6 +12,22 @@ var l3=document.getElementById("GetStarted2");
 var l5=document.querySelector(".netflixfooter");
 var l6=document.querySelector(".netflixmiddle6");
 
+var e=document.getElementById("email");
+
+function mail(){
+  if(e.click){
+    e.style.border="1px solid white";
+    e.style.borderRadius="4px";
+    e.style.fontSize="0.8rem";  
+    e.style.paddingBottom="20px";
+    e.style.paddingLeft="15px";
+}
+else
+{
+  e.style.fontSize="1.1rem";
+}
+}
+
 function plusone() {
     var x = document.getElementById("panel1");
     if (x.style.display === "none" || x.style.display === "") {

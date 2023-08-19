@@ -107,7 +107,7 @@
     left: 1280px;
     top: 20px;
     position: absolute;
-    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-family: sans-serif;
 
 }
 
@@ -161,7 +161,7 @@
     color: white;
     position: absolute;
     top: 17px;
-    left: 160px;
+    left: 155px;
     cursor: pointer;
 }
 
@@ -179,6 +179,7 @@
     font-size: 1.1rem;
     margin: 10px;
     outline: none;
+    transition: all 0.3s ease;
 }
 
 .netflixmiddle input[type=text] {
@@ -204,8 +205,8 @@
 .netflixmiddle h1{
     color: white;
     font-size: 2.8rem;
-    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
-    font-weight: 700;
+    font-family: sans-serif;
+    font-weight: 800;
     top: 140px;
     left: 260px;
     width: 1000px;
@@ -272,7 +273,7 @@ hr{
     color: rgb(255, 255, 255);
     font-size: 3.3rem;
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
-    font-weight: 800;
+    font-weight: 700;
     top: 150px;
     left: 180px;
     margin-bottom: 20px;
@@ -354,7 +355,7 @@ video::-webkit-media-controls
   color: rgb(255, 255, 255);
   font-size: 3.3rem;
   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   text-align: left;
   width: 600px;
   top: 150px;
@@ -482,7 +483,7 @@ video::-webkit-media-controls
     color: rgb(255, 255, 255);
     font-size: 3.3rem;
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
-    font-weight: 800;
+    font-weight: 700;
     top: 150px;
     left: 180px;
     margin-bottom: 20px;
@@ -559,7 +560,7 @@ video::-webkit-media-controls
     color: rgb(255, 255, 255);
     font-size: 3.3rem;
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
-    font-weight: 800;
+    font-weight: 700;
     top: 150px;
     left: 800px;
     margin-bottom: 20px;
@@ -607,7 +608,7 @@ video::-webkit-media-controls
     color: rgb(255, 255, 255);
     font-size: 3.3rem;
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
-    font-weight: 800;
+    font-weight: 700;
     top: 10px;
     left: 420px;
     margin-bottom: 20px;
@@ -626,7 +627,7 @@ video::-webkit-media-controls
   border: none;
   text-align: left;
   color: white;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
   font-weight: 400;
   cursor: pointer;
@@ -646,7 +647,7 @@ video::-webkit-media-controls
   border: none;
   text-align: left;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
   font-weight: 400;
 
@@ -664,7 +665,7 @@ video::-webkit-media-controls
   border: none;
   text-align: left;
   color: white;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
   font-weight: 400;
   cursor: pointer;
@@ -683,7 +684,7 @@ video::-webkit-media-controls
   border: none;
   text-align: left;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
   font-weight: 400;
 }
@@ -699,7 +700,7 @@ video::-webkit-media-controls
   border: none;
   text-align: left;
   color: white;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
   font-weight: 400;
   cursor: pointer;
@@ -735,7 +736,7 @@ video::-webkit-media-controls
   /* border-radius: 5px; */
   text-align: left;
   color: white;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
   font-weight: 400;
   cursor: pointer;
@@ -755,7 +756,7 @@ video::-webkit-media-controls
   /* border-radius: 5px; */
   text-align: left;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
   font-weight: 400;
 }
@@ -772,7 +773,7 @@ video::-webkit-media-controls
   /* border-radius: 5px; */
   text-align: left;
   color: white;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
   font-weight: 400;
   cursor: pointer;
@@ -792,7 +793,7 @@ video::-webkit-media-controls
   /* border-radius: 5px; */
   text-align: left;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
   font-weight: 400;
 }
@@ -809,7 +810,7 @@ video::-webkit-media-controls
   /* border-radius: 5px; */
   text-align: left;
   color: white;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
   font-weight: 400;
   cursor: pointer;
@@ -829,7 +830,7 @@ video::-webkit-media-controls
   border: none;
   text-align: left;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
   font-weight: 400;
   
@@ -856,11 +857,12 @@ video::-webkit-media-controls
 
 .netflixmiddle6 .material-icons{
   position: absolute;
-  top: 33px;
-  left: 1150px;
+  top: 16px;
+  left: 1127px;
   width: 52px;
   height: 70px;
   z-index: 1;
+  font-size: 3.5rem;
 }
 
 
@@ -914,7 +916,8 @@ video::-webkit-media-controls
     height:58px;
     border: none;
     padding: 15px 22px;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+    font-family: sans-serif;
     font-weight: 600;
     cursor: pointer;
     top: 810px;
@@ -938,8 +941,8 @@ video::-webkit-media-controls
   color: rgb(255, 255, 255);
   size: 10px;
   position: absolute;
-  top: 18px;
-  left: 170px;
+  top: 16px;
+  left: 155px;
   cursor: pointer;
 }
 .netflixfooter hr{
@@ -976,7 +979,7 @@ video::-webkit-media-controls
   text-align: left;
   color: rgb(206, 206, 206);
   font-size: 1.0rem;
-  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  font-family:sans-serif;
   font-weight: 400;
 
 }
@@ -996,6 +999,7 @@ ul{
   text-align: left;
   color: rgb(206, 206, 206);
   font-size: 1.0rem;
+  font-style: normal;
   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
   font-weight: 400;
 
@@ -1011,6 +1015,7 @@ ul{
   text-align: left;
   color: rgb(206, 206, 206);
   font-size: 1.0rem;
+  font-style: normal;
   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
   font-weight: 400;
 
@@ -1026,6 +1031,7 @@ ul{
   text-align: left;
   color: rgb(206, 206, 206);
   font-size: 1.0rem;
+  font-style: normal;
   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
   font-weight: 400;
 
