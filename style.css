@@ -182,6 +182,7 @@
     transition: all 0.3s ease;
 }
 
+
 .netflixmiddle input[type=text] {
     width: 100%;
     padding: 32px 20px;
@@ -192,6 +193,7 @@
     border-radius: 4px;
     top: 20px;
     left: 820px;
+    z-index: 1;
 }
 
 .netflixheader img{
@@ -903,8 +905,7 @@ video::-webkit-media-controls
     padding: 3px 22px;
     font-size: 1.1rem;
     margin: 10px;
-    outline: none;
-    transition: height 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .netflixmiddle6 #GetStarted2{

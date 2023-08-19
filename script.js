@@ -13,20 +13,53 @@ var l5=document.querySelector(".netflixfooter");
 var l6=document.querySelector(".netflixmiddle6");
 
 var e=document.getElementById("email");
+var e2=document.getElementById("email2");
+var i=document.querySelector(".input");
 
 function mail(){
-  if(e.click){
-    e.style.border="1px solid white";
+  if(e.style.fontSize=="1.1rem" || e.style.fontSize==""){
+    e.style.border="2px solid rgb(109,109,109)";
+    e.style.outline="2px solid white";
+    e.style.outlineOffset="1px";
     e.style.borderRadius="4px";
     e.style.fontSize="0.8rem";  
     e.style.paddingBottom="20px";
     e.style.paddingLeft="15px";
+    
+  }
+  
+  if(e2.style.fontSize=="1.1rem" || e2.style.fontSize==""){
+    e2.style.border="2px solid rgb(109,109,109)";
+    e2.style.outline="2px solid white";
+    e2.style.outlineOffset="1px";
+    e2.style.borderRadius="4px";
+    e2.style.fontSize="0.8rem";  
+    e2.style.paddingBottom="20px";
+    e2.style.paddingLeft="15px";
+    // e.classList.add("clicked");
+  }
+
 }
-else
-{
-  e.style.fontSize="1.1rem";
-}
-}
+
+document.addEventListener("click", function(event) {
+  var e = document.getElementById("email");
+  var e2=document.getElementById("email2");
+  if (event.target !== e) {
+    e.style.fontSize = "1.1rem";
+    e.style.border= "1px solid rgb(109,109,109)";
+    e.style.padding="3px 22px"
+    e.style.border="2px solid rgb(109,109,109)";
+    e.style.outline="none";
+
+  }
+  if(event.target !== e2){
+    e2.style.fontSize = "1.1rem";
+    e2.style.border= "1px solid rgb(109,109,109)";
+    e2.style.padding="3px 22px"
+    e2.style.border="2px solid rgb(109,109,109)";
+    e2.style.outline="none";
+  }
+});
 
 function plusone() {
     var x = document.getElementById("panel1");
