@@ -747,7 +747,7 @@ video::-webkit-media-controls
 .netflixmiddle6 #panel4{
   display: none;
   position: absolute;
-  top: 521.5px;
+  top: 527.5px;
   left: 160px;
   width: 1172px;
   height: 90px;
@@ -784,7 +784,7 @@ video::-webkit-media-controls
 .netflixmiddle6 #panel5{
   display: none;
   position: absolute;
-  top: 617px;
+  top: 627px;
   left: 160px;
   width: 1172px;
   height: 90px;
@@ -822,7 +822,7 @@ video::-webkit-media-controls
 .netflixmiddle6 #panel6{
   display: none;
   position: absolute;
-  top: 713px;
+  top: 725px;
   left: 160px;
   width: 1172px;
   height: 190px;
@@ -940,7 +940,7 @@ video::-webkit-media-controls
 
 .netflixmiddle6 #GetStarted2 .material-icons{
   color: rgb(255, 255, 255);
-  size: 10px;
+  font-size: 26px;
   position: absolute;
   top: 16px;
   left: 155px;
