@@ -14,7 +14,8 @@ var l6=document.querySelector(".netflixmiddle6");
 
 var e=document.getElementById("email");
 var e2=document.getElementById("email2");
-var i=document.querySelector(".input");
+var i=document.querySelector("h6");
+var j=document.querySelector("h5");
 
 var x = document.getElementById("panel1");
 var y = document.getElementById("panel2");
@@ -29,9 +30,10 @@ function mail(){
     e.style.outline="2px solid white";
     e.style.outlineOffset="1px";
     e.style.borderRadius="4px";
-    e.style.fontSize="0.8rem";  
-    e.style.paddingBottom="20px";
-    e.style.paddingLeft="15px";
+    i.style.fontSize="0.8rem";
+    i.style.top="350px";
+    i.style.left="505px";
+    // e.style.paddingtop="20px";
     
   }
   
@@ -40,10 +42,10 @@ function mail(){
     e2.style.outline="2px solid white";
     e2.style.outlineOffset="1px";
     e2.style.borderRadius="4px";
-    e2.style.fontSize="0.8rem";  
-    e2.style.paddingBottom="20px";
-    e2.style.paddingLeft="15px";
-    // e.classList.add("clicked");
+    j.style.fontSize="0.8rem";
+    j.style.top="795px";
+    j.style.left="499px";
+
   }
 
 }
@@ -52,21 +54,30 @@ document.addEventListener("click", function(event) {
   var e = document.getElementById("email");
   var e2=document.getElementById("email2");
   if (event.target !== e) {
-    e.style.fontSize = "1.1rem";
+    i.style.fontSize = "1.1rem";
     e.style.border= "1px solid rgb(109,109,109)";
-    e.style.padding="3px 22px"
+    i.style.top="346px";
     e.style.border="2px solid rgb(109,109,109)";
     e.style.outline="none";
 
   }
+  else{
+    e.style.paddingTop = "20px";
+    e.style.paddingLeft = "18px";
+  }
+
   if(event.target !== e2){
-    e2.style.fontSize = "1.1rem";
+    j.style.fontSize = "1.1rem";
     e2.style.border= "1px solid rgb(109,109,109)";
-    e2.style.padding="3px 22px"
+    j.style.top="798px"
     e2.style.border="2px solid rgb(109,109,109)";
     e2.style.outline="none";
   }
+  else{
+    e2.style.paddingTop = "20px";
+  }
 });
+
 
 function plusone() {
     
@@ -123,7 +134,7 @@ function plusone() {
       
       bone.innerHTML = '<span class="material-icons">add</span>What is Netflix?';
       setTimeout(function() {
-        x.style.display = "none"; // Hide the panel after collapsing
+        x.style.display = "none"; 
       }, 130); 
      }
 
@@ -187,7 +198,7 @@ function plustwo() {
 
       btwo.innerHTML = '<span class="material-icons">add</span>How much does Netflix cost?';
       setTimeout(function() {
-        y.style.display = "none"; // Hide the panel after collapsing
+        y.style.display = "none"; 
       }, 130); 
     }
     togglePanel("panel2");
@@ -248,7 +259,7 @@ function plusthree() {
 
       bthree.innerHTML = '<span class="material-icons">add</span>Where can I watch?';
       setTimeout(function() {
-        z.style.display = "none"; // Hide the panel after collapsing
+        z.style.display = "none";
       }, 130); 
     }
     togglePanel("panel3");
@@ -275,7 +286,6 @@ function plusfour() {
 
       btwo.style.top = "248px";
       bthree.style.top = "345px";
-      // bfour.style.top = "443px";
       bfour.style.top = "441.5px";
       x.style.height = "0px";
       y.style.height = "0px";

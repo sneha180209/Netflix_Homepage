@@ -193,7 +193,17 @@
     border-radius: 4px;
     top: 20px;
     left: 820px;
-    z-index: 1;
+}
+
+h6{
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: 400;
+    top: 346px;
+    left: 505px;
+    position: absolute;
+    transition: all 0.3s ease;
 }
 
 .netflixheader img{
@@ -906,6 +916,18 @@ video::-webkit-media-controls
     font-size: 1.1rem;
     margin: 10px;
     transition: all 0.3s ease;
+}
+
+
+h5{
+  color: rgb(255, 255, 255);
+  font-size: 1.1rem;
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  font-weight: 400;
+  top: 798px;
+  left: 505px;
+  position: absolute;
+  transition: all 0.3s ease;
 }
 
 .netflixmiddle6 #GetStarted2{
