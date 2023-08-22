@@ -105,7 +105,7 @@ function plusone() {
       bfour.innerHTML = '<span class="material-icons">add</span>How do I cancel?';
       bfive.innerHTML = '<span class="material-icons">add</span>What can I watch on Netflix?';
       bsix.innerHTML = '<span class="material-icons">add</span>Is Netflix good for kids?';
-      
+
 
       y.style.height = "0px";
       z.style.height = "0px";
@@ -167,7 +167,13 @@ function plustwo() {
       l3.style.top="960px";
 
       btwo.innerHTML = '<span class="material-icons">close</span>How much does Netflix cost?';
-
+      bone.innerHTML = '<span class="material-icons">close</span>What is Netflix?';
+      // btwo.innerHTML = '<span class="material-icons">add</span>How much does Netflix cost?';
+      bthree.innerHTML = '<span class="material-icons">add</span>Where can I watch?';
+      bfour.innerHTML = '<span class="material-icons">add</span>How do I cancel?';
+      bfive.innerHTML = '<span class="material-icons">add</span>What can I watch on Netflix?';
+      bsix.innerHTML = '<span class="material-icons">add</span>Is Netflix good for kids?';
+      
       
       btwo.style.top = "248px";
       x.style.height = "0px";
@@ -229,6 +235,13 @@ function plusthree() {
       l3.style.top="1060px";
 
       bthree.innerHTML = '<span class="material-icons">close</span>Where can I watch?';
+      bone.innerHTML = '<span class="material-icons">close</span>What is Netflix?';
+      btwo.innerHTML = '<span class="material-icons">add</span>How much does Netflix cost?';
+      // bthree.innerHTML = '<span class="material-icons">add</span>Where can I watch?';
+      bfour.innerHTML = '<span class="material-icons">add</span>How do I cancel?';
+      bfive.innerHTML = '<span class="material-icons">add</span>What can I watch on Netflix?';
+      bsix.innerHTML = '<span class="material-icons">add</span>Is Netflix good for kids?';
+      
 
       btwo.style.top = "246px";
       bthree.style.top = "341px";
@@ -289,6 +302,13 @@ function plusfour() {
       l3.style.top="960px";
 
       bfour.innerHTML = '<span class="material-icons">close</span>How do I cancel?';
+      bone.innerHTML = '<span class="material-icons">close</span>What is Netflix?';
+      btwo.innerHTML = '<span class="material-icons">add</span>How much does Netflix cost?';
+      bthree.innerHTML = '<span class="material-icons">add</span>Where can I watch?';
+      // bfour.innerHTML = '<span class="material-icons">add</span>How do I cancel?';
+      bfive.innerHTML = '<span class="material-icons">add</span>What can I watch on Netflix?';
+      bsix.innerHTML = '<span class="material-icons">add</span>Is Netflix good for kids?';
+      
 
       btwo.style.top = "248px";
       bthree.style.top = "345px";
@@ -347,6 +367,13 @@ function plusfive() {
       l3.style.top="960px";
 
       bfive.innerHTML = '<span class="material-icons">close</span>What can I watch on Netflix?';
+      bone.innerHTML = '<span class="material-icons">close</span>What is Netflix?';
+      btwo.innerHTML = '<span class="material-icons">add</span>How much does Netflix cost?';
+      bthree.innerHTML = '<span class="material-icons">add</span>Where can I watch?';
+      bfour.innerHTML = '<span class="material-icons">add</span>How do I cancel?';
+      // bfive.innerHTML = '<span class="material-icons">add</span>What can I watch on Netflix?';
+      bsix.innerHTML = '<span class="material-icons">add</span>Is Netflix good for kids?';
+      
 
       btwo.style.top = "248px";
       bthree.style.top = "345px";
@@ -402,6 +429,13 @@ function plussix() {
       l3.style.top="1060px";
 
       bsix.innerHTML = '<span class="material-icons">close</span>Is Netflix good for kids?';
+      bone.innerHTML = '<span class="material-icons">close</span>What is Netflix?';
+      btwo.innerHTML = '<span class="material-icons">add</span>How much does Netflix cost?';
+      bthree.innerHTML = '<span class="material-icons">add</span>Where can I watch?';
+      bfour.innerHTML = '<span class="material-icons">add</span>How do I cancel?';
+      bfive.innerHTML = '<span class="material-icons">add</span>What can I watch on Netflix?';
+      // bsix.innerHTML = '<span class="material-icons">add</span>Is Netflix good for kids?';
+      
 
       btwo.style.top = "248px";
       bthree.style.top = "345px";
