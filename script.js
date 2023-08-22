@@ -167,7 +167,7 @@ function plustwo() {
       l3.style.top="960px";
 
       btwo.innerHTML = '<span class="material-icons">close</span>How much does Netflix cost?';
-      bone.innerHTML = '<span class="material-icons">close</span>What is Netflix?';
+      bone.innerHTML = '<span class="material-icons">add</span>What is Netflix?';
       // btwo.innerHTML = '<span class="material-icons">add</span>How much does Netflix cost?';
       bthree.innerHTML = '<span class="material-icons">add</span>Where can I watch?';
       bfour.innerHTML = '<span class="material-icons">add</span>How do I cancel?';
@@ -235,7 +235,7 @@ function plusthree() {
       l3.style.top="1060px";
 
       bthree.innerHTML = '<span class="material-icons">close</span>Where can I watch?';
-      bone.innerHTML = '<span class="material-icons">close</span>What is Netflix?';
+      bone.innerHTML = '<span class="material-icons">add</span>What is Netflix?';
       btwo.innerHTML = '<span class="material-icons">add</span>How much does Netflix cost?';
       // bthree.innerHTML = '<span class="material-icons">add</span>Where can I watch?';
       bfour.innerHTML = '<span class="material-icons">add</span>How do I cancel?';
@@ -302,7 +302,7 @@ function plusfour() {
       l3.style.top="960px";
 
       bfour.innerHTML = '<span class="material-icons">close</span>How do I cancel?';
-      bone.innerHTML = '<span class="material-icons">close</span>What is Netflix?';
+      bone.innerHTML = '<span class="material-icons">add</span>What is Netflix?';
       btwo.innerHTML = '<span class="material-icons">add</span>How much does Netflix cost?';
       bthree.innerHTML = '<span class="material-icons">add</span>Where can I watch?';
       // bfour.innerHTML = '<span class="material-icons">add</span>How do I cancel?';
@@ -367,7 +367,7 @@ function plusfive() {
       l3.style.top="960px";
 
       bfive.innerHTML = '<span class="material-icons">close</span>What can I watch on Netflix?';
-      bone.innerHTML = '<span class="material-icons">close</span>What is Netflix?';
+      bone.innerHTML = '<span class="material-icons">add</span>What is Netflix?';
       btwo.innerHTML = '<span class="material-icons">add</span>How much does Netflix cost?';
       bthree.innerHTML = '<span class="material-icons">add</span>Where can I watch?';
       bfour.innerHTML = '<span class="material-icons">add</span>How do I cancel?';
@@ -429,7 +429,7 @@ function plussix() {
       l3.style.top="1060px";
 
       bsix.innerHTML = '<span class="material-icons">close</span>Is Netflix good for kids?';
-      bone.innerHTML = '<span class="material-icons">close</span>What is Netflix?';
+      bone.innerHTML = '<span class="material-icons">add</span>What is Netflix?';
       btwo.innerHTML = '<span class="material-icons">add</span>How much does Netflix cost?';
       bthree.innerHTML = '<span class="material-icons">add</span>Where can I watch?';
       bfour.innerHTML = '<span class="material-icons">add</span>How do I cancel?';
