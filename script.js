@@ -100,6 +100,12 @@ function plusone() {
       l3.style.top="1060px";
 
       bone.innerHTML = '<span class="material-icons">close</span>What is Netflix?';
+      btwo.innerHTML = '<span class="material-icons">add</span>How much does Netflix cost?';
+      bthree.innerHTML = '<span class="material-icons">add</span>Where can I watch?';
+      bfour.innerHTML = '<span class="material-icons">add</span>How do I cancel?';
+      bfive.innerHTML = '<span class="material-icons">add</span>What can I watch on Netflix?';
+      bsix.innerHTML = '<span class="material-icons">add</span>Is Netflix good for kids?';
+      
 
       y.style.height = "0px";
       z.style.height = "0px";
