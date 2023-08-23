@@ -78,9 +78,81 @@ document.addEventListener("click", function(event) {
   }
 });
 
+var c1=0;
+var c2=0;
+var c3=0;
+var c4=0;
+var c5=0;
+var c6=0;
+
+
+document.addEventListener("click", function(event) {
+  
+  if (event.target === bone) {
+    c1++;
+    if(c1%2!=0){
+      j.style.top = "1048px";
+    }
+    else{
+      j.style.top = "798px";
+    }
+  }
+  
+
+  if (event.target === btwo) {
+    c2++;
+    if(c2%2!=0){
+      j.style.top = "1048px";
+    }
+    else{
+      j.style.top = "798px";
+    }
+  }
+
+  if (event.target === bthree) {
+    c3++;
+    if(c3%2!=0){
+      j.style.top = "948px";
+    }
+    else{
+      j.style.top = "798px";
+    }
+  }
+
+  if (event.target === bfour) {
+    c4++;
+    if(c4%2!=0){
+      j.style.top = "948px";
+    }
+    else{
+      j.style.top = "798px";
+    }
+  }
+
+  if (event.target === bfive) {
+    c5++;
+    if(c5%2!=0){
+      j.style.top = "948px";
+    }
+    else{
+      j.style.top = "798px";
+    }
+  }
+
+  if (event.target === bsix) {
+    c6++;
+    if(c6%2!=0){
+      j.style.top = "1048px";
+    }
+    else{
+      j.style.top = "798px";
+    }
+  }
+  
+});
 
 function plusone() {
-    
+  
     if (x.style.display === "none" || x.style.display === "") {
       x.style.display = "block";
       x.style.height = "187px";
@@ -144,9 +216,10 @@ function plusone() {
       }, 130); 
      }
 
-
+     
   }
 
+  
 function plustwo() {
 
     if (y.style.display === "none" || y.style.display === "") {
