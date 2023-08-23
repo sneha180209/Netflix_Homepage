@@ -91,7 +91,7 @@ document.addEventListener("click", function(event) {
   if (event.target === bone) {
     c1++;
     if(c1%2!=0){
-      j.style.top = "1048px";
+      j.style.top = "1248px";
     }
     else{
       j.style.top = "798px";
@@ -101,8 +101,8 @@ document.addEventListener("click", function(event) {
 
   if (event.target === btwo) {
     c2++;
-    if(c2%2!=0){
-      j.style.top = "1048px";
+    if(c2%2!==0){
+      j.style.top = "948px";
     }
     else{
       j.style.top = "798px";
@@ -112,7 +112,7 @@ document.addEventListener("click", function(event) {
   if (event.target === bthree) {
     c3++;
     if(c3%2!=0){
-      j.style.top = "948px";
+      j.style.top = "1048px";
     }
     else{
       j.style.top = "798px";
@@ -148,7 +148,8 @@ document.addEventListener("click", function(event) {
       j.style.top = "798px";
     }
   }
-  
+
+
 });
 
 function plusone() {
