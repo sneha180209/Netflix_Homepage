@@ -46,6 +46,8 @@ function mail(){
     j.style.top="795px";
     j.style.left="499px";
 
+
+
   }
 
 }
@@ -85,13 +87,26 @@ var c4=0;
 var c5=0;
 var c6=0;
 
+// document.addEventListener("click", function(event) {
+
+//   if (event.target === bone) {
+//     c1++;
+//     if (c1 % 2 !== 0) {
+//       j.style.top = "1048px";
+//     } else {
+//       j.style.top = "798px";
+//     }
+//   }
+// });
+
+
 
 document.addEventListener("click", function(event) {
   
   if (event.target === bone) {
     c1++;
     if(c1%2!=0){
-      j.style.top = "1248px";
+      j.style.top = "1048px";
     }
     else{
       j.style.top = "798px";
@@ -152,8 +167,15 @@ document.addEventListener("click", function(event) {
 
 });
 
+var p1=0;
+var p2=0;
+var p3=0;
+var p4=0;
+var p5=0;
+var p6=0;
+
 function plusone() {
-  
+
     if (x.style.display === "none" || x.style.display === "") {
       x.style.display = "block";
       x.style.height = "187px";
@@ -192,6 +214,16 @@ function plusone() {
         b.style.display = "none";
         c.style.display = "none";
       }, 130);
+      
+      document.addEventListener("click", function(event) {
+        if (event.target === e2) {
+          if(p1%2==0){
+            j.style.top = "1044px";
+            p1++;
+          }
+        }
+      });
+
 
     } 
     else {
@@ -216,6 +248,15 @@ function plusone() {
         x.style.display = "none"; 
       }, 130); 
      }
+
+     bone.addEventListener("click", function(event) {
+      if (event.target === e2) {
+        if(p1%2!=0){
+          j.style.top = "789px";
+          p1++;
+        }
+      }
+    });
 
      
   }
@@ -263,6 +304,16 @@ function plustwo() {
         c.style.display = "none";
       }, 130);
 
+      document.addEventListener("click", function(event) {
+        if (event.target === e2) {
+          if(p2%2===0){
+            j.style.top = "944px";
+            p2++;
+          }
+          
+        }
+      });
+
 
       
 
@@ -286,8 +337,17 @@ function plustwo() {
       setTimeout(function() {
         y.style.display = "none"; 
       }, 130); 
-    }
-    togglePanel("panel2");
+    
+    
+    btwo.addEventListener("click", function(event) {
+      if (event.target === e2) {
+        if(p2%2!=0){
+          j.style.top = "789px";
+          p2++;
+        }
+      }
+    });
+  }
   }
 
 function plusthree() {
@@ -334,6 +394,12 @@ function plusthree() {
         c.style.display = "none";
       }, 130);
 
+      document.addEventListener("click", function(event) {
+        if (event.target === e2) {
+          j.style.top = "1044px";
+        }
+      });
+
     }
     else {
       bfour.style.top = "435.5px";
@@ -355,7 +421,15 @@ function plusthree() {
         z.style.display = "none";
       }, 130); 
     }
-    togglePanel("panel3");
+    
+    bthree.addEventListener("click", function(event) {
+      if (event.target === e2) {
+        if(p1%2!=0){
+          j.style.top = "789px";
+          p1++;
+        }
+      }
+    });
   }
 
 function plusfour() {
@@ -399,6 +473,12 @@ function plusfour() {
         b.style.display = "none";
         c.style.display = "none";
       }, 130);
+
+      document.addEventListener("click", function(event) {
+        if (event.target === e2) {
+          j.style.top = "944px";
+        }
+      });
       
     }
     else {
@@ -421,7 +501,15 @@ function plusfour() {
         a.style.display = "none"; // Hide the panel after collapsing
       }, 130); 
     }
-    togglePanel("panel4");
+    
+    bfour.addEventListener("click", function(event) {
+      if (event.target === e2) {
+        if(p1%2!=0){
+          j.style.top = "789px";
+          p1++;
+        }
+      }
+    });
   }
 
 function plusfive() {
@@ -466,6 +554,12 @@ function plusfive() {
         a.style.display = "none";
         c.style.display = "none";
       }, 130);
+
+      document.addEventListener("click", function(event) {
+        if (event.target === e2) {
+          j.style.top = "944px";
+        }
+      });
     }
     else {
       bsix.style.top = "639px";
@@ -484,6 +578,15 @@ function plusfive() {
       setTimeout(function() {
         b.style.display = "none"; // Hide the panel after collapsing
       }, 130); 
+
+      bfive.addEventListener("click", function(event) {
+        if (event.target === e2) {
+          if(p1%2!=0){
+            j.style.top = "789px";
+            p1++;
+          }
+        }
+      });
     }
   }
 
@@ -529,6 +632,12 @@ function plussix() {
         a.style.display = "none";
         b.style.display = "none";
       }, 130);
+
+      document.addEventListener("click", function(event) {
+        if (event.target === e2) {
+          j.style.top = "1044px";
+        }
+      });
     }
     else {
       c.style.height = "0px";
@@ -546,6 +655,15 @@ function plussix() {
       setTimeout(function() {
         c.style.display = "none"; // Hide the panel after collapsing
       }, 130); 
+
+      bsix.addEventListener("click", function(event) {
+        if (event.target === e2) {
+          if(p1%2!=0){
+            j.style.top = "789px";
+            p1++;
+          }
+        }
+      });
     }
   }
 
