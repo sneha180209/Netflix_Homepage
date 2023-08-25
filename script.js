@@ -87,19 +87,6 @@ var c4=0;
 var c5=0;
 var c6=0;
 
-// document.addEventListener("click", function(event) {
-
-//   if (event.target === bone) {
-//     c1++;
-//     if (c1 % 2 !== 0) {
-//       j.style.top = "1048px";
-//     } else {
-//       j.style.top = "798px";
-//     }
-//   }
-// });
-
-
 
 document.addEventListener("click", function(event) {
   
@@ -283,7 +270,6 @@ function plustwo() {
 
       btwo.innerHTML = '<span class="material-icons">close</span>How much does Netflix cost?';
       bone.innerHTML = '<span class="material-icons">add</span>What is Netflix?';
-      // btwo.innerHTML = '<span class="material-icons">add</span>How much does Netflix cost?';
       bthree.innerHTML = '<span class="material-icons">add</span>Where can I watch?';
       bfour.innerHTML = '<span class="material-icons">add</span>How do I cancel?';
       bfive.innerHTML = '<span class="material-icons">add</span>What can I watch on Netflix?';
@@ -396,7 +382,11 @@ function plusthree() {
 
       document.addEventListener("click", function(event) {
         if (event.target === e2) {
-          j.style.top = "1044px";
+          if(p3%2===0){
+            j.style.top = "1044px";
+            p3++;
+          }
+          // j.style.top = "1044px";
         }
       });
 
@@ -424,9 +414,9 @@ function plusthree() {
     
     bthree.addEventListener("click", function(event) {
       if (event.target === e2) {
-        if(p1%2!=0){
+        if(p3%2!=0){
           j.style.top = "789px";
-          p1++;
+          p3++;
         }
       }
     });
@@ -476,7 +466,11 @@ function plusfour() {
 
       document.addEventListener("click", function(event) {
         if (event.target === e2) {
-          j.style.top = "944px";
+          if(p4%2===0){
+            j.style.top = "944px";
+            p4++;
+          }
+          // j.style.top = "944px";
         }
       });
       
@@ -504,9 +498,9 @@ function plusfour() {
     
     bfour.addEventListener("click", function(event) {
       if (event.target === e2) {
-        if(p1%2!=0){
+        if(p4%2!=0){
           j.style.top = "789px";
-          p1++;
+          p4++;
         }
       }
     });
@@ -557,7 +551,11 @@ function plusfive() {
 
       document.addEventListener("click", function(event) {
         if (event.target === e2) {
-          j.style.top = "944px";
+          if(p5%2===0){
+            j.style.top = "944px";
+            p5++;
+          }
+          // j.style.top = "944px";
         }
       });
     }
@@ -581,9 +579,9 @@ function plusfive() {
 
       bfive.addEventListener("click", function(event) {
         if (event.target === e2) {
-          if(p1%2!=0){
+          if(p5%2!=0){
             j.style.top = "789px";
-            p1++;
+            p5++;
           }
         }
       });
@@ -633,11 +631,20 @@ function plussix() {
         b.style.display = "none";
       }, 130);
 
+      // var initialJTop;
+      
       document.addEventListener("click", function(event) {
         if (event.target === e2) {
-          j.style.top = "1044px";
+          if(p6%2===0){
+            j.style.top = "1044px";
+            // initialJTop = j.style.top; 
+            p6++;
+          }
+          
         }
+         
       });
+
     }
     else {
       c.style.height = "0px";
@@ -655,16 +662,29 @@ function plussix() {
       setTimeout(function() {
         c.style.display = "none"; // Hide the panel after collapsing
       }, 130); 
+      
+      
 
       bsix.addEventListener("click", function(event) {
         if (event.target === e2) {
-          if(p1%2!=0){
+          if(p6%2!=0){
             j.style.top = "789px";
-            p1++;
+            p6++;
           }
         }
       });
+
+      mail();
     }
   }
 
   
+ 
+  // bsix.addEventListener("click", function(event) {
+  //   if (event.target === bsix) {
+  //     if(event.target!==bsix)
+  //     {
+  //       j.style.top = "1044px";
+  //     }
+  //   }
+  // });
