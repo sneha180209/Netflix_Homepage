@@ -24,6 +24,50 @@ var a = document.getElementById("panel4");
 var b = document.getElementById("panel5");
 var c = document.getElementById("panel6");
 
+var drp=document.querySelector(".dropbtn");
+var drp2=document.querySelector(".dropdown-content");
+
+var dl=document.querySelector(".btnlast");
+var dl2=document.querySelector(".dropdown-last");
+ 
+// drp.addEventListener("click", drop);
+function drop() {
+  if (drp2.style.display === "none" || drp2.style.display === "") {
+      drp2.style.display = "block";
+      drp.style.outline="2px solid white";
+      drp.style.outlineOffset="2px";
+  } else {
+      drp2.style.display = "none";
+      drp.style.outline="none";
+  }
+
+}
+
+function droplast() {
+  if (dl2.style.display === "none" || dl2.style.display === "") {
+      dl2.style.display = "block";
+      dl.style.outline="2px solid white";
+      dl.style.outlineOffset="2px";
+  } else {
+      dl2.style.display = "none";
+      dl.style.outline="none";
+  }
+
+}
+
+// Close the dropdown if the user clicks outside of it
+window.addEventListener("click", function(event) {
+  if (!event.target.matches('.dropbtn')) {
+      drp2.style.display = "none";
+      drp.style.outline="none";
+  }
+  if (!event.target.matches('.btnlast')) {
+      dl2.style.display = "none";
+      dl.style.outline="none";
+  }
+});
+
+
 function mail(){
   if(e.style.fontSize=="1.1rem" || e.style.fontSize==""){
     e.style.border="2px solid rgb(109,109,109)";
@@ -33,7 +77,6 @@ function mail(){
     i.style.fontSize="0.8rem";
     i.style.top="350px";
     i.style.left="505px";
-    // e.style.paddingtop="20px";
     
   }
   
@@ -45,9 +88,6 @@ function mail(){
     j.style.fontSize="0.8rem";
     j.style.top="795px";
     j.style.left="499px";
-
-
-
   }
 
 }
@@ -161,6 +201,12 @@ var p4=0;
 var p5=0;
 var p6=0;
 
+var a1=0;
+var a2=0;
+var a3=0;
+var a4=0;
+var a5=0;
+var a6=0;
 function plusone() {
 
     if (x.style.display === "none" || x.style.display === "") {
@@ -201,6 +247,8 @@ function plusone() {
         b.style.display = "none";
         c.style.display = "none";
       }, 130);
+
+      a1++;
       
       document.addEventListener("click", function(event) {
         if (event.target === e2) {
@@ -234,7 +282,20 @@ function plusone() {
       setTimeout(function() {
         x.style.display = "none"; 
       }, 130); 
-     }
+
+      // a1++;
+
+      // document.addEventListener("click", function(event) {
+      //   if (event.target === e2) {
+      //     if(a1%2===0){
+      //       j.style.top = "795px";
+      //       // p6++; }
+          
+      //   }
+      // }
+         
+      // });
+     
 
      bone.addEventListener("click", function(event) {
       if (event.target === e2) {
@@ -244,7 +305,7 @@ function plusone() {
         }
       }
     });
-
+  }
      
   }
 
@@ -290,6 +351,8 @@ function plustwo() {
         c.style.display = "none";
       }, 130);
 
+      a2++;
+
       document.addEventListener("click", function(event) {
         if (event.target === e2) {
           if(p2%2===0){
@@ -323,6 +386,18 @@ function plustwo() {
       setTimeout(function() {
         y.style.display = "none"; 
       }, 130); 
+
+      // a2++;
+      // document.addEventListener("click", function(event) {
+      //   if (event.target === e2) {
+      //     if(a2%2===0){
+      //       j.style.top = "795px";
+      //       // p6++; }
+          
+      //   }
+      // }
+         
+      // });
     
     
     btwo.addEventListener("click", function(event) {
@@ -336,6 +411,7 @@ function plustwo() {
   }
   }
 
+// var a3=0;
 function plusthree() {
 
     if (z.style.display === "none" || z.style.display === "") {
@@ -380,6 +456,8 @@ function plusthree() {
         c.style.display = "none";
       }, 130);
 
+      a3++;
+
       document.addEventListener("click", function(event) {
         if (event.target === e2) {
           if(p3%2===0){
@@ -410,7 +488,19 @@ function plusthree() {
       setTimeout(function() {
         z.style.display = "none";
       }, 130); 
-    }
+
+      // a3++;
+      // document.addEventListener("click", function(event) {
+      //   if (event.target === e2) {
+      //     if(a3%2===0){
+      //       j.style.top = "795px";
+      //       // p6++; }
+          
+      //   }
+      // }
+         
+      // });
+    
     
     bthree.addEventListener("click", function(event) {
       if (event.target === e2) {
@@ -421,7 +511,9 @@ function plusthree() {
       }
     });
   }
+  }
 
+// var a4=0;
 function plusfour() {
 
     if (a.style.display === "none" || a.style.display === "") {
@@ -464,6 +556,8 @@ function plusfour() {
         c.style.display = "none";
       }, 130);
 
+      a4++;
+
       document.addEventListener("click", function(event) {
         if (event.target === e2) {
           if(p4%2===0){
@@ -494,7 +588,20 @@ function plusfour() {
       setTimeout(function() {
         a.style.display = "none"; // Hide the panel after collapsing
       }, 130); 
-    }
+
+      // a4++;
+
+      // document.addEventListener("click", function(event) {
+      //   if (event.target === e2) {
+      //     if(a4%2===0){
+      //       j.style.top = "795px";
+      //       // p6++; }
+          
+      //   }
+      // }
+         
+      // });
+    
     
     bfour.addEventListener("click", function(event) {
       if (event.target === e2) {
@@ -505,7 +612,9 @@ function plusfour() {
       }
     });
   }
+  }
 
+// var a5=0;
 function plusfive() {
 
   if (b.style.display === "none" || b.style.display === "") {
@@ -530,7 +639,7 @@ function plusfive() {
       // bfive.innerHTML = '<span class="material-icons">add</span>What can I watch on Netflix?';
       bsix.innerHTML = '<span class="material-icons">add</span>Is Netflix good for kids?';
       
-
+      // j.style.top = "948px";
       btwo.style.top = "248px";
       bthree.style.top = "345px";
       bfour.style.top = "443px";
@@ -548,6 +657,8 @@ function plusfive() {
         a.style.display = "none";
         c.style.display = "none";
       }, 130);
+
+      a5++;
 
       document.addEventListener("click", function(event) {
         if (event.target === e2) {
@@ -576,6 +687,20 @@ function plusfive() {
       setTimeout(function() {
         b.style.display = "none"; // Hide the panel after collapsing
       }, 130); 
+      // a5++;
+
+      // document.addEventListener("click", function(event) {
+      //   if (event.target === e2) {
+      //     if(a5%2===0){
+      //       j.style.top = "795px";
+      //       // p6++; }
+          
+      //   }
+      // }
+         
+      // });
+    
+
 
       bfive.addEventListener("click", function(event) {
         if (event.target === e2) {
@@ -588,6 +713,7 @@ function plusfive() {
     }
   }
 
+// var a6=0;
 function plussix() {
 
   if (c.style.display === "none" || c.style.display === "") {
@@ -631,7 +757,8 @@ function plussix() {
         b.style.display = "none";
       }, 130);
 
-      // var initialJTop;
+      
+      a6++;
       
       document.addEventListener("click", function(event) {
         if (event.target === e2) {
@@ -657,34 +784,37 @@ function plussix() {
       l1.style.top="745px";
       l2.style.top="800px";
       l3.style.top="810px";
+      // a6++;
+
+      // document.addEventListener("click", function(event) {
+      //   if (event.target === e2) {
+      //     if(a6%2===0){
+      //       j.style.top = "795px";
+      //       // p6++;
+      //     }
+          
+      //   }
+         
+      // });
+
 
       bsix.innerHTML = '<span class="material-icons">add</span>Is Netflix good for kids?';
       setTimeout(function() {
         c.style.display = "none"; // Hide the panel after collapsing
       }, 130); 
       
-      
-
-      bsix.addEventListener("click", function(event) {
-        if (event.target === e2) {
-          if(p6%2!=0){
-            j.style.top = "789px";
-            p6++;
-          }
-        }
-      });
-
-      mail();
+    
     }
   }
 
   
- 
-  // bsix.addEventListener("click", function(event) {
-  //   if (event.target === bsix) {
-  //     if(event.target!==bsix)
-  //     {
-  //       j.style.top = "1044px";
+  // function ps6()
+  // {
+  //   document.addEventListener("click", function(event) {
+  //     if (event.target === e2) {
+  //         j.style.top = "789px";
+        
   //     }
-  //   }
-  // });
+  //   });
+
+  // }
