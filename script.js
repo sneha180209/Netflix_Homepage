@@ -30,6 +30,8 @@ var drp2=document.querySelector(".dropdown-content");
 var dl=document.querySelector(".btnlast");
 var dl2=document.querySelector(".dropdown-last");
 
+var s=document.querySelector(".spanemail");
+ 
 
 function drop() {
   if (drp2.style.display === "none" || drp2.style.display === "") {
@@ -55,6 +57,7 @@ function droplast() {
 
 }
 
+// Close the dropdown if the user clicks outside of it
 window.addEventListener("click", function(event) {
   if (!event.target.matches('.dropbtn')) {
       drp2.style.display = "none";
@@ -67,6 +70,19 @@ window.addEventListener("click", function(event) {
 });
 
 
+var p1=0;
+var p2=0;
+var p3=0;
+var p4=0;
+var p5=0;
+var p6=0;
+
+var a1=0;
+var a2=0;
+var a3=0;
+var a4=0;
+var a5=0;
+var a6=0;
 function plusone() {
 
     if (x.style.display === "none" || x.style.display === "") {
@@ -270,9 +286,11 @@ function plusthree() {
       setTimeout(function() {
         z.style.display = "none";
       }, 130); 
-  
+
+      
   }
   }
+
 
 function plusfour() {
 
@@ -315,7 +333,7 @@ function plusfour() {
         b.style.display = "none";
         c.style.display = "none";
       }, 130);
-      
+
     }
     else {
       
@@ -337,10 +355,9 @@ function plusfour() {
       setTimeout(function() {
         a.style.display = "none"; // Hide the panel after collapsing
       }, 130); 
-      
-  }
-  }
 
+  }
+  }
 
 function plusfive() {
 
@@ -365,6 +382,7 @@ function plusfive() {
       bthree.innerHTML = '<span class="material-icons">add</span>Where can I watch?';
       bfour.innerHTML = '<span class="material-icons">add</span>How do I cancel?';
       bsix.innerHTML = '<span class="material-icons">add</span>Is Netflix good for kids?';
+      
 
       btwo.style.top = "248px";
       bthree.style.top = "345px";
@@ -383,7 +401,6 @@ function plusfive() {
         c.style.display = "none";
       }, 130);
 
-  
     }
     else {
       bsix.style.top = "639px";
@@ -403,9 +420,10 @@ function plusfive() {
       setTimeout(function() {
         b.style.display = "none"; // Hide the panel after collapsing
       }, 130); 
-  
+
     }
   }
+
 
 function plussix() {
 
@@ -429,7 +447,7 @@ function plussix() {
       bthree.innerHTML = '<span class="material-icons">add</span>Where can I watch?';
       bfour.innerHTML = '<span class="material-icons">add</span>How do I cancel?';
       bfive.innerHTML = '<span class="material-icons">add</span>What can I watch on Netflix?';
-      
+
       btwo.style.top = "248px";
       bthree.style.top = "345px";
       bfour.style.top = "443px";
@@ -447,6 +465,7 @@ function plussix() {
         a.style.display = "none";
         b.style.display = "none";
       }, 130);
+
     }
     else {
       c.style.height = "0px";
@@ -460,7 +479,7 @@ function plussix() {
       l2.style.top="800px";
       l3.style.top="810px";
       s.style.top="826px";
-      
+    
       bsix.innerHTML = '<span class="material-icons">add</span>Is Netflix good for kids?';
       setTimeout(function() {
         c.style.display = "none"; // Hide the panel after collapsing
