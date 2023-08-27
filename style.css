@@ -90,11 +90,7 @@
     display: block;
   }
   
-  /* .dropdown .dropdown-content {
-    display: block;
-  }
-   */
-
+ 
 .netflixheader #SignIn{
     background: rgb(229, 9, 20);
     color: white;
@@ -113,7 +109,6 @@
 
 .netflixheader #SignIn:hover{
     background: rgb(195, 20, 20);
-    /* box-shadow: 0 0 10px rgb(229, 9, 20); */
 }
 
 .netflixmiddle{
@@ -165,34 +160,51 @@
     cursor: pointer;
 }
 
-.netflixmiddle #email{
+.netflixmiddle input{
     color: #ffffff;
     background: rgba(31, 31, 31, 0.7);
-    border-color: #6d6d6d;
     position: absolute;
-    top: 360px;
-    left: 475px;
-    width: 350px;
-    height: 59px;
+    border: 2px solid rgb(61, 61, 61);
     border-radius: 4px;
-    padding: 3px 22px;
+    top: 360px;
+    left: 450px;
+    width: 350px;
+    height: 54px;
     font-size: 1.1rem;
     margin: 10px;
     outline: none;
+    padding-left: 20px;
+    /* margin-top: 20px; */
+    /* padding-top: 10px; */
     transition: all 0.3s ease;
 }
 
+.netflixmiddle span{
+  position: absolute;
+  top: 387px;
+  left: 480px;
+  pointer-events: none;
+  color: #aaaaaa;
+  font-size: 1.1rem;
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
 
-.netflixmiddle input[type=text] {
-    width: 100%;
-    padding: 32px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 2px solid rgb(61, 61, 61);
-    color: #ffffff;
-    border-radius: 4px;
-    top: 20px;
-    left: 820px;
+.netflixmiddle input:valid~span, 
+.netflixmiddle input:focus~span{
+  transform: translateY(-13px);
+  font-size: 0.8rem;
+  color: #aaaaaa;
+  
+}
+
+
+
+.netflixmiddle input:focus{
+  outline: 2.5px solid white;
+  outline-offset: 1px;
+  border-radius: 4px;
 }
 
 h6{
@@ -948,7 +960,7 @@ h5{
     position: absolute;
     transition: height 0.3s ease;
 }
-.netflixmiddle6 input[type=text] {
+.netflixmiddle6 input {
   width: 100%;
   padding: 32px 20px;
   margin: 8px 0;
@@ -956,8 +968,38 @@ h5{
   border: 2px solid rgb(61, 61, 61);
   color: #ffffff;
   border-radius: 4px;
-  top: 20px;
+  top: 25px;
   left: 820px;
+  /* pointer-events: none; */
+}
+
+.netflixmiddle6 span{
+  position: absolute;
+  top: 826px;
+  left: 497px;
+  /* transform: translateY(-50%); */
+  pointer-events: none;
+  color: #aaaaaa;
+  font-size: 1.1rem;
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  font-weight: 400;
+  transition: all 0.3s ease;
+
+}
+
+.netflixmiddle6 input:valid~span, 
+.netflixmiddle6 input:focus~span{
+  transform: translateY(-15px);
+  font-size: 0.8rem;
+  color: #aaaaaa;
+  
+}
+
+
+.netflixmiddle6 input:focus{
+  outline: 2.5px solid white;
+  outline-offset: 1px;
+  border-radius: 4px;
 }
 
 .netflixmiddle6 #GetStarted2 .material-icons{
