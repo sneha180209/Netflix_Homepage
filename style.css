@@ -4,12 +4,14 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/b85863b0-0609-4dba-8fe8-d0370b25b9ee/fdf508c8-97d0-42fd-a6f9-9bef6bf96934/IN-en-20230731-popsignuptwoweeks-perspective_alpha_website_small.jpg");
-  background-size: cover; 
-  background-position: center;
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/00103100-5b45-4d4f-af32-342649f1bda5/64774cd8-5c3a-4823-a0bb-1610d6971bd4/IN-en-20230821-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+  background-size: 125%; 
+  background-repeat: no-repeat;
+  background-position: 50% 75%;
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: overlay;
   overflow: hidden;
+  overflow-x: hidden;
 }
 
 
@@ -21,10 +23,11 @@
   width: 100%;
   height: 100%;
   background: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 0.4) 0%,
-    rgba(0, 0, 0, 0.4) 35%,
-    rgba(0, 0, 0, 0.4) 100%
+    to bottom,
+    rgba(0, 0, 0, 0.9) 0%, /* Make the top color darker */
+    rgba(0, 0, 0, 0.2) 0%, /* Keep the same dark color for the middle */
+    rgba(0, 0, 0, 0.4) 90%, /* Keep a slightly lighter color in the middle */
+    rgba(0, 0, 0, 2) 100% 
   );
 }
 
@@ -123,7 +126,7 @@
 
 .netflixmiddle hr{
 position: absolute;
-top: 0px;
+top: 5px;
 left: -80px;
 width: 1600px;
 height: 10px;
@@ -144,7 +147,7 @@ border: none;
   font-weight: 600;
   cursor: pointer;
   top: 370px;
-  left: 845px;
+  left: 860px;
   position: absolute;
 }
 
@@ -164,16 +167,16 @@ border: none;
   color: #ffffff;
   background: rgba(31, 31, 31, 0.7);
   position: absolute;
-  border: 2px solid rgb(61, 61, 61);
+  border: 2px solid rgb(111, 111, 111);
   border-radius: 4px;
   top: 360px;
-  left: 450px;
+  left: 462px;
   width: 350px;
   height: 54px;
   font-size: 1.1rem;
   margin: 10px;
   outline: none;
-  padding-left: 20px;
+  padding-left: 15px;
   /* margin-top: 20px; */
   /* padding-top: 10px; */
   transition: all 0.3s ease;
@@ -182,7 +185,7 @@ border: none;
 .netflixmiddle span{
 position: absolute;
 top: 387px;
-left: 480px;
+left: 487px;
 pointer-events: none;
 color: #aaaaaa;
 font-size: 1.1rem;
@@ -198,7 +201,6 @@ font-size: 0.8rem;
 color: #aaaaaa;
 
 }
-
 
 
 .netflixmiddle input:focus{
@@ -228,12 +230,12 @@ h6{
 
 .netflixmiddle h1{
   color: white;
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   font-family: sans-serif;
   font-weight: 800;
-  top: 140px;
-  left: 260px;
-  width: 1000px;
+  top: 150px;
+  left: 230px;
+  width: 1100px;
   margin-bottom: 20px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   position: absolute;
@@ -241,11 +243,11 @@ h6{
 
 .netflixmiddle p{
   color: white;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
-  width: 600px;
-  top: 220px;
-  left: 460px;
+  width: 700px;
+  top: 230px;
+  left: 420px;
   margin-bottom: 20px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   position: absolute;
@@ -264,9 +266,9 @@ h6{
 
 hr{
   position: absolute;
-  top: 673px;
+  top: 692px;
   left: 0px;
-  width: 1600px;
+  width: 1519px;
   height: 10px;
   background-color: rgb(62, 62, 62);
   border: none;
@@ -275,7 +277,7 @@ hr{
 .netflixmiddle2 {
   background-color: black;
   position: absolute;
-  top: 707px;
+  top: 710px;
   left: 0;
   width: 100%;
   height: 100%; 
